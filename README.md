@@ -2,17 +2,17 @@
 
 ## 概要
 
-このプログラムは[【強化学習】実装しながら学ぶA3C【CartPoleで棒立て：1ファイルで完結】](https://qiita.com/sugulu/items/acbc909dd9b74b043e45)に記載されているコードをTensorFlow 2、Google Colaboratory上で動かすことができるように修正を加えたものです。
+该程序是[增强学习]在实施A3C时学习[与CartPole站立：在一个文件中完成]中描述的代码的修改版本，因此可以在TensorFlow 2和Google Colaboratory上运行。
 
-A3Cのアルゴリズムに関しては、上記の参照元か[元論文](http://proceedings.mlr.press/v48/mniha16.pdf)を参照してください。
+有关A3C算法，请参考以上参考资料或原始论文。
 
-また、Google Colaboratory 上で gymの結果を正常に出力するために[【強化学習】OpenAI Gym を Google Corab上で描画する方法 (2020.6版)](https://qiita.com/ymd_h/items/c393797deb72e1779269)の`gym-notebook-wrapper`を使用しています。
+此外，为了在Google Colaboratory上正常输出体育锻炼结果，我们使用[强化学习]如何在Google Corab（2020.6版）上绘制OpenAI Gym的体育锻炼笔记本包装器。
 
-## 実行結果
+## 运行結果
 
 ![result](https://github.com/kazuaki-i/a3c_tf2/blob/master/cartpole.gif?raw=true)
 
 ## TODO
-- コード内コメント整理
-- パラメータ設定方法まとめ
-- cartpole以外のタスクの実装
+-在代码中组织注释
+-参数设置方法概述
+-执行除卡特彼勒以外的任务
